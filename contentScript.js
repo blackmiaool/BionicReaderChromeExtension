@@ -45,13 +45,13 @@ function injectCSS() {
     .bionic-primary {
       font-weight: bold;
       color: ${isDarkMode2 ? primaryColor2 : primaryColor};
-    }
+    }`
 
-    .bionic-secondary {
-      font-weight: bold;
-      color: ${isDarkMode2 ? secondaryColor2 : secondaryColor};
-    }
-  `;
+  //   .bionic-secondary {
+  //     font-weight: bold;
+  //     color: ${isDarkMode2 ? secondaryColor2 : secondaryColor};
+  //   }
+  // `;
 
   const styleElement = document.createElement('style');
   styleElement.innerHTML = styles;
